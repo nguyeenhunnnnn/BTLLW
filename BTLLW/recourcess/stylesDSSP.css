@@ -1,0 +1,25 @@
+.banner{
+    position: relative;
+    width: 1200px;
+    margin: 30px 136px;
+    height: 180PX;
+}
+.banner #bannerDSSP{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+}
+.banner .fa-regular{
+    font-size: 45px;
+    opacity: 0.5;
+}
+.banner .fa-circle-left .DSSP{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.banner .fa-circle-right .DSSP{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}

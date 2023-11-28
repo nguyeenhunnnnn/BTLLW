@@ -1,0 +1,188 @@
+.TCTSP{
+    width: 1200px;
+    margin: 30px 136px;
+    
+}
+.TCTSP .tensp{
+    font-weight: 600;
+    margin-left: 0px;
+}
+.spmain{
+    margin-top: 20px;
+}
+.imgct{
+    position: relative;
+    width: 710px;
+    height: 394px;
+}
+#imgCTSP{
+    position: absolute;
+    width: 710px;
+    height: 394px;
+}
+ .fa-regular{
+    font-size: 45px;
+    opacity: 0.5;
+}
+ .CTSPiconleft{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+}
+.CTSPiconright{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+/* ========================== */
+.spmain{
+   
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+    grid-auto-rows: minmax(min-content,max-content);
+}
+.thongtin{
+margin-left: 50px;
+}
+.thongtin .pthongtin{
+font-size: 20px;
+font-weight: 600;
+
+}
+.thongtin .ctthongtin{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+.thongtin .ctthongtin ul{
+list-style: none;
+}
+.thongtin .ctthongtin ul li{
+    display: flex;
+    margin: 15px;
+}
+.ctthongtin ul .pctthongtin{
+margin-right: 8px;
+}
+.ctthongtin ul .spantt{
+margin-left: 5px;
+}
+.gia{
+    width: 400px;
+    background-color:white;
+    padding: 15px ;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid rgb(184, 10, 10);
+}
+
+.gia .giasp{
+    color: rgb(184, 10, 10);
+    font-size: 20px;
+    font-weight: 700;
+}
+/* ===================== */
+.mua{
+    display: flex;
+    width: 460px;
+    align-items: center;
+}
+.mua .mua1{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(184, 10, 10) ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+.mua .mua1 .muangay{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+}
+.mua .gh1{
+    width: 80px;
+    height: 45px;
+    border: 2px solid rgb(184, 10, 10) ;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.fa-cart-plus{
+    color: rgb(184, 10, 10);
+    font-size: 22px;
+}
+/* ============================================= */
+.ddnb{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,auto));
+    grid-auto-rows: minmax(min-content,max-content);
+}
+.baiviet{
+    width: 710px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0px #666;
+}
+.baiviet .fisrtbv{
+    background-color: #f3f3f3;
+    width: 98%;
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.baiviet .fisrtbv h2{
+    color:rgb(184, 10, 10) ;
+    font-size: 22px;
+    font-weight: 600;
+}
+.baiviet .fisrtbv ul{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.baiviet .seconbv h2{
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+/* ========================================== */
+.thongso {
+    width: 460px;
+    height: 437px;
+    margin-left: 10px;
+}
+.thongso .pthongso{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.ctthongso ul{
+    list-style: none;
+    margin-top: 5px;
+}
+.ctthongso ul li{
+    display: flex;
+    padding: 10px;
+}
+.ctthongso ul .db{
+    background-color: white;
+}
+.ctthongso ul li .pctthongso{
+    width: 180px;
+    font-size: 18px;
+}
+.ctthongso ul li .spants{
+    width: 300px;
+    font-size: 18px;
+    padding: 0px 8px 0px 25px;
+}
+
+

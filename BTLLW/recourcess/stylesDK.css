@@ -1,0 +1,71 @@
+#menuDK{
+    display: none;
+}
+.dangnhap{
+    margin: 20px 300px;
+    position: relative;
+    height: 600px;
+}
+.dangnhap h2{
+    color: rgb(184, 10, 10);
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 43%;
+}
+.dangnhap img{
+position: absolute;
+top: -5%;
+left: 36%;
+}
+    .dangnhap .formDK {
+        position: absolute;
+        bottom: 100px;
+        left: 25%;
+    }
+        .dangnhap .formDK input {
+            width: 450px;
+            height: 45px;
+            border: none;
+            background-color: #f3f3f3;
+        }
+            .dangnhap .formDK input:focus {
+                border: none;
+                outline: none;
+            }
+        .dangnhap .formDK p {
+            margin-top: 5px;
+            font-size: 16px;
+            color: rgb(184, 10, 10);
+            
+        }
+        .dangnhap .formDK .btn {
+            width: 450px;
+            height: 45px;
+            background-color: rgb(184, 10, 10);
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+            .dangnhap .formDK .btn #btnDK {
+                border: none;
+                background-color: rgb(184, 10, 10);
+                width: 450px;
+                height: 45px;
+                border-radius: 20px;
+                font-size: 20px;
+                color: white;
+                font-weight: 600;
+            }
+.lk{
+    text-align: center;
+    margin-top: 20px;
+}
+.lk #pDK{
+display: block;
+color: black;
+}
+.lk #pDK a{
+    color: rgb(184, 10, 10);
+    text-decoration: none;
+}
